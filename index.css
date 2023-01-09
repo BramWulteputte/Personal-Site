@@ -35,6 +35,11 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .buttons {
     display: flex;
     flex-direction: column;
@@ -121,9 +126,13 @@ body {
     h1 {
       font-size: 46px;
     }
-    h3 {
-      white-space: nowrap;
-      text-size-adjust: 200%;
-      text-align: center;
+    .name {
+        width: fit-content;
     }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-size-adjust: 200%;
+      }
   }
