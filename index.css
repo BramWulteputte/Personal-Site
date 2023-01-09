@@ -133,12 +133,12 @@ body {
       font-size: 46px;
     }
     .name {
-        width: 100%;
+        width: 150%;
     }
     .bio {
         align-items: center;
         text-size-adjust: 200%;
         text-align: center;
-        width: 100%;
+        width: 250%;
       }
   }
