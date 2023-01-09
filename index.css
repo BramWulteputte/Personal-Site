@@ -36,6 +36,11 @@ body {
     align-items: center;
     text-align: center;
     width: 150%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -16px;
+
   }
   .bio {
     display: flex;
