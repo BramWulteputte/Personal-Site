@@ -94,6 +94,9 @@ body {
       text-size-adjust: 200%;
     }
     h1 {
-      font-size: 50px;
+      font-size: 46px;
+    }
+    h3 {
+      white-space: nowrap;
     }
   }
