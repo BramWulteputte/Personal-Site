@@ -89,11 +89,11 @@ body {
     }
     .button {
       width: 90%;
-      font-size: 60px;
       margin: 3%;
       border-radius: 100px;
+      text-size-adjust: 200%;
     }
     h1 {
-      font-size: 60px;
+      font-size: 50px;
     }
   }
