@@ -137,6 +137,9 @@ body {
     }
     .name {
         text-size-adjust: 200%;
+        align-items: center;
+        text-size-adjust: 200%;
+        text-align: center;
     }
     .bio {
         align-items: center;
