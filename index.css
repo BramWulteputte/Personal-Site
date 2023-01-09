@@ -30,6 +30,12 @@ body {
     width: 20%;
     border-radius: 40px;
   }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+  }
   .button {
     background-color: rgb(235, 234, 229);
     border-radius: 40px;
@@ -94,10 +100,14 @@ body {
       border-radius: 100px;
       text-size-adjust: 200%;
     }
+    .newsletter {
+      text-size-adjust: 200%;  
+    }
     h1 {
       font-size: 46px;
     }
     h3 {
       white-space: nowrap;
+      text-size-adjust: 200%;
     }
   }

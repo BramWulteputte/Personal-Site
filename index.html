@@ -17,50 +17,55 @@
 
 <body>
   <div class="container">
-    <img src="https://i.imgur.com/yZ4vYh1.png" style="border-radius: 40px;width: 60%;">
-    <h1>Bram Wulteputte <soundbutton id="icon"><img src="img/speaker.png" height="20px"></soundbutton></h1>
-    <!-- The audio player -->
-    <audio id="player" src="name.mp3"></audio>
-    <script>
-      // Get the icon and audio player elements
-      const icon = document.getElementById('icon');
-      const player = document.getElementById('player');
+    <div class="buttons">
+      <img src="https://i.imgur.com/yZ4vYh1.png" style="border-radius: 40px;width: 60%;">
+      <h1>Bram Wulteputte <soundbutton id="icon"><img src="img/speaker.png" height="20px"></soundbutton>
+      </h1>
+      <!-- The audio player -->
+      <audio id="player" src="name.mp3"></audio>
+      <script>
+        // Get the icon and audio player elements
+        const icon = document.getElementById('icon');
+        const player = document.getElementById('player');
 
-      // Add a click event listener to the icon
-      icon.addEventListener('click', () => {
-        // Play the audio
-        player.play();
-      });
-    </script>
-    <h3>Founder, Creator, Soon-to-be-Father, He/Him</h3>
-    <h3></h3>
-    <a href="https://www.shapescape.com/" class="button"
-      onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Shapescape'});">
-      <span style="font-size: 14px;font-weight: initial;">Founder & CPO @</span>
-      <span style="font-size: 20px;font-weight: bold;"> Shapescape </span>
-    </a>
-    <a href="https://www.blockstock.gg/" class="button"
-      onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'BlockStock'});">
-      <span style="font-size: 14px;font-weight: initial;">Founder & CEO @</span>
-      <span style="font-size: 20px;font-weight: bold;"> Blockstock </span>
-    </a>
-    <a href="https://www.cubecast.co/" class="button"
-      onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'CubeCast'});">
-      <span style="font-size: 14px;font-weight: initial;">Founder @</span>
-      <span style="font-size: 20px;font-weight: bold;"> Cubecast </span>
-    </a>
-    <a href="https://obi.blue/" class="button"
-      onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Obi.Blue'});">
-      <span style="font-size: 14px;font-weight: initial;">Founder @</span>
-      <span style="font-size: 20px;font-weight: bold;"> obi.blue </span>
-    </a>
-    <a href="https://twitter.com/Domestique___" class="button"
-      onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Domestique'});">
-      <span style="font-size: 14px;font-weight: initial;">Co-Host @</span>
-      <span style="font-size: 20px;font-weight: bold;"> Domestique</span>
-    </a>
-    <h2>I write! <a href="http://eepurl.com/ihVDZj" style="color: black;white-space: nowrap;">Sign up</a> for my
-      newsletter!</h2>
+        // Add a click event listener to the icon
+        icon.addEventListener('click', () => {
+          // Play the audio
+          player.play();
+        });
+      </script>
+      <h3>Founder, Creator, Soon-to-be-Father, He/Him</h3>
+      <h3></h3>
+      <a href="https://www.shapescape.com/" class="button"
+        onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Shapescape'});">
+        <span style="font-size: 14px;font-weight: initial;">Founder & CPO @</span>
+        <span style="font-size: 20px;font-weight: bold;"> Shapescape </span>
+      </a>
+      <a href="https://www.blockstock.gg/" class="button"
+        onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'BlockStock'});">
+        <span style="font-size: 14px;font-weight: initial;">Founder & CEO @</span>
+        <span style="font-size: 20px;font-weight: bold;"> Blockstock </span>
+      </a>
+      <a href="https://www.cubecast.co/" class="button"
+        onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'CubeCast'});">
+        <span style="font-size: 14px;font-weight: initial;">Founder @</span>
+        <span style="font-size: 20px;font-weight: bold;"> Cubecast </span>
+      </a>
+      <a href="https://obi.blue/" class="button"
+        onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Obi.Blue'});">
+        <span style="font-size: 14px;font-weight: initial;">Founder @</span>
+        <span style="font-size: 20px;font-weight: bold;"> obi.blue </span>
+      </a>
+      <a href="https://twitter.com/Domestique___" class="button"
+        onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Domestique'});">
+        <span style="font-size: 14px;font-weight: initial;">Co-Host @</span>
+        <span style="font-size: 20px;font-weight: bold;"> Domestique</span>
+      </a>
+    </div>
+    <div class="newsletter">
+      <h2>I write! <a href="http://eepurl.com/ihVDZj" style="color: black;white-space: nowrap;">Sign up</a> for my
+        newsletter!</h2>
+    </div>
   </div>
   <div class="footer">
     <a href="https://twitter.com/BrambossMC" target="_blank">
