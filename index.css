@@ -100,6 +100,12 @@ body {
       border-radius: 100px;
       text-size-adjust: 200%;
     }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+    }
     .newsletter {
       text-size-adjust: 200%;  
     }
@@ -108,6 +114,6 @@ body {
     }
     h3 {
       white-space: nowrap;
-      text-size-adjust: 200%;
+      text-size-adjust: 300%;
     }
   }
