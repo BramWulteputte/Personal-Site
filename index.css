@@ -18,6 +18,12 @@ h1 {
     font-size: 32px;
     padding: 5%;
   }
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 0 0;
+  }
   .button {
     background-color: lightgray;
     border-radius: 40px;
@@ -75,10 +81,11 @@ h1 {
     }
     .button {
       width: 80%;
-      font-size: 70px;
+      font-size: 60px;
       margin: 5%;
+      border-radius: 60px;
     }
     h1 {
-      font-size: 52px;
+      font-size: 60px;
     }
   }
