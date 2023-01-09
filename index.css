@@ -61,6 +61,10 @@ body {
     font-weight: 900;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   }
+  .newsletter {
+    font-size: 20px; 
+    text-align: center; 
+  }
   .footer {
     position: fixed;
     left: 0;
@@ -114,6 +118,7 @@ body {
     }
     h3 {
       white-space: nowrap;
-      text-size-adjust: 300%;
+      text-size-adjust: 200%;
+      text-align: center;
     }
   }
