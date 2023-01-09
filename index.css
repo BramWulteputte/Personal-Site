@@ -121,7 +121,10 @@ body {
         padding: 3%;
     }
     .newsletter {
-      text-size-adjust: 200%;  
+      text-size-adjust: 200%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     h1 {
       font-size: 46px;
