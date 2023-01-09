@@ -139,6 +139,7 @@ body {
     }
     .name {
         width: 150%;
+        text-size-adjust: 200%;
     }
     .bio {
         align-items: center;
