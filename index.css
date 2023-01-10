@@ -127,7 +127,7 @@ body {
         align-items: center;
         padding: 3%;
     }
-    .newsletter {
+    .container .newsletter {
       text-size-adjust: 200%;
       align-items: center;
       text-align: center;
@@ -135,14 +135,15 @@ body {
     h1 {
       font-size: 46px;
     }
-    .name {
+    .container .name {
         text-size-adjust: 200%;
         align-items: center;
         text-size-adjust: 200%;
         text-align: center;
     }
-    .bio {
+    .container .bio {
         align-items: center;
+        flex-direction: column;
         text-size-adjust: 200%;
         text-align: center;
         white-space: nowrap;
