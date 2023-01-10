@@ -47,6 +47,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 16px;
   }
   .buttons {
     display: flex;
@@ -132,14 +133,11 @@ body {
     }
     .container .name {
         text-size-adjust: 300%;
-        white-space: nowrap;
-        align-items: center;
     }
     .container .bio {
         align-items: center;
         flex-direction: column;
         text-size-adjust: 200%;
-        text-align: center;
         white-space: nowrap;
       }
   }
