@@ -17,112 +17,145 @@
 
 <body>
   <section class="parent">
-  <section>
-  <div class="container">
-      <img src="https://i.imgur.com/yZ4vYh1.png" style="border-radius: 40px;width: 30%;">
-      <div class="name">
-        <a>
-          <h1>Bram Wulteputte <soundbutton id="icon"><img src="img/speaker.png" height="16px"></soundbutton></h1>
-        </a>
-        <!-- The audio player -->
-        <audio id="player" src="name.mp3"></audio>
-        <script>
-          // Get the icon and audio player elements
-          const icon = document.getElementById('icon');
-          const player = document.getElementById('player');
+    <section>
+      <div class="container">
+        <img src="https://i.imgur.com/yZ4vYh1.png" style="border-radius: 40px;width: 30%;">
+        <div class="name">
+          <a>
+            <h1>Bram Wulteputte <soundbutton id="icon"><img src="img/speaker.png" height="16px"></soundbutton>
+            </h1>
+          </a>
+          <!-- The audio player -->
+          <audio id="player" src="name.mp3"></audio>
+          <script>
+            // Get the icon and audio player elements
+            const icon = document.getElementById('icon');
+            const player = document.getElementById('player');
 
-          // Add a click event listener to the icon
-          icon.addEventListener('click', () => {
-            // Play the audio
-            player.play();
-          });
-        </script>
+            // Add a click event listener to the icon
+            icon.addEventListener('click', () => {
+              // Play the audio
+              player.play();
+            });
+          </script>
+        </div>
+        <div class="bio">
+          <p>Founder, Creator, Soon-to-be-Father, He/Him</p>
+        </div>
+        <div class="buttons">
+          <a href="https://www.shapescape.com/" class="button"
+            onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Shapescape'});">
+            <span style="font-size: 12px;font-weight: initial;">Founder & CPO @</span>
+            <span style="font-size: 20px;font-weight: bold;"> Shapescape </span>
+            <img src="img/chevron.png" style="width: 5%;">
+          </a>
+          <a href="https://www.blockstock.gg/" class="button"
+            onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'BlockStock'});">
+            <span style="font-size: 12px;font-weight: initial;">Founder & CEO @</span>
+            <span style="font-size: 20px;font-weight: bold;"> Blockstock </span>
+            <img src="img/chevron.png" style="width: 5%;">
+          </a>
+          <a href="https://www.cubecast.co/" class="button"
+            onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'CubeCast'});">
+            <span style="font-size: 12px;font-weight: initial;">Founder @</span>
+            <span style="font-size: 20px;font-weight: bold;"> Cubecast </span>
+            <img src="img/chevron.png" style="width: 5%;">
+          </a>
+          <a href="https://obi.blue/" class="button"
+            onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Obi.Blue'});">
+            <span style="font-size: 12px;font-weight: initial;">Founder @</span>
+            <span style="font-size: 20px;font-weight: bold;"> obi.blue </span>
+            <img src="img/chevron.png" style="width: 5%;">
+          </a>
+          <a href="https://twitter.com/Domestique___" class="button"
+            onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Domestique'});">
+            <span style="font-size: 12px;font-weight: initial;">Co-Host @</span>
+            <span style="font-size: 20px;font-weight: bold;"> Domestique</span>
+            <img src="img/chevron.png" style="width: 5%;">
+          </a>
+        </div>
+        <div class="newsletter">
+          <h2>I write! <a href="http://eepurl.com/ihVDZj" style="color: black;white-space: nowrap;">Sign up</a> for my
+            newsletter!</h2>
+        </div>
       </div>
-      <div class="bio">
-        <p>Founder, Creator, Soon-to-be-Father, He/Him</p>
-      </div>
-      <div class="buttons">
-        <a href="https://www.shapescape.com/" class="button"
-          onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Shapescape'});">
-          <span style="font-size: 12px;font-weight: initial;">Founder & CPO @</span>
-          <span style="font-size: 20px;font-weight: bold;"> Shapescape </span>
-          <img src="img/chevron.png" style="width: 5%;">
-        </a>
-        <a href="https://www.blockstock.gg/" class="button"
-          onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'BlockStock'});">
-          <span style="font-size: 12px;font-weight: initial;">Founder & CEO @</span>
-          <span style="font-size: 20px;font-weight: bold;"> Blockstock </span>
-          <img src="img/chevron.png" style="width: 5%;">
-        </a>
-        <a href="https://www.cubecast.co/" class="button"
-          onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'CubeCast'});">
-          <span style="font-size: 12px;font-weight: initial;">Founder @</span>
-          <span style="font-size: 20px;font-weight: bold;"> Cubecast </span>
-          <img src="img/chevron.png" style="width: 5%;">
-        </a>
-        <a href="https://obi.blue/" class="button"
-          onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Obi.Blue'});">
-          <span style="font-size: 12px;font-weight: initial;">Founder @</span>
-          <span style="font-size: 20px;font-weight: bold;"> obi.blue </span>
-          <img src="img/chevron.png" style="width: 5%;">
-        </a>
-        <a href="https://twitter.com/Domestique___" class="button"
-          onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Domestique'});">
-          <span style="font-size: 12px;font-weight: initial;">Co-Host @</span>
-          <span style="font-size: 20px;font-weight: bold;"> Domestique</span>
-          <img src="img/chevron.png" style="width: 5%;">
-        </a>
-      </div>
-      <div class="newsletter">
-        <h2>I write! <a href="http://eepurl.com/ihVDZj" style="color: black;white-space: nowrap;">Sign up</a> for my
-          newsletter!</h2>
-      </div>
-  </div>
-</section>
-<section class="blog">
-    <section class="post">
-      <h2>Domestique Podcast</h2>
-      <div style="text-align: center;">
-        <img src="https://i.imgur.com/Js9yXgw.png">
-      </div>
-      <p>Four episodes into the new Domestique podcast season, we celebrate our first milestone! We're currently placed 13th in Belgium in sports podcasts!</p>
-      <p>I'm still very, very new to podcasting, but I do want to celebrate this early win and, at the same time, be ambitious. Having the Domestique Podcast chart in more countries would be great, as well as a top 10 placement in Belgium!</p>
-      <p>Haven't listened to the latest episode yet?</p>
-      <p>Please give it a listen here:</p>
-      <p><a href="https://www.buzzsprout.com/2098305/12041047">https://www.buzzsprout.com/2098305/12041047</a></p>      
     </section>
-    <section class="post">
-      <h2>Grave Danger 2</h2>
-      <div style="text-align: center;">
-        <img src="https://www.shapescape.com/static/4da34f4ddaffbabddcfe6804d94a6a5a/8ab23/8ab1d080-4392-49f5-aa63-81445f486589_keyart.webp">
-      </div>
-      <p>
-        Last night, Grave Danger 2 hit the virtual shelves of the Minecraft Marketplace. Exactly 1 year after the original, Shapescape brings a sequel to one of its most downloaded games in which we take our Knight's Brigade on a well-earned vacation after their adventures in Grave Danger. Luckily the King's family owns a resort on Skull Island. Nothing ever goes wrong on islands that have names like that, right?
-      </p>
-      <p>
-        Grave Danger was downloaded 5.5 million times as a part of the 2022 New Year Celebration. Seeing that established player base got us thinking about whether or not we could turn Grave Danger into an IP with some name recognition. This leads us to the creation of Grave Danger 2. This was produced in a very focused period of time in by our whole production team at our office in Hamburg, Germany.
-      </p>     
-    </section>
-    <section class="post">
-      <h2>Blockstock</h2>
-      <div style="text-align: center;">
-        <img src="https://media.licdn.com/dms/image/C4E22AQGWJOVG82aaew/feedshare-shrink_2048_1536/0/1673348590635?e=1677110400&v=beta&t=E4pbokDSlLnryc-41ALSPArjkkWfL1JJlsaWq9ZSai8">
-      </div>
-      <p>
-        Last year, in 2022, Blockstock was launched as an easy-to-use Marketplace for Minecraft-related 3D models. It launched with a database of over 1000 high-quality models supplied by Shapescape.
-      </p>
-      <p>
-        I'd love to tell everyone about the amazing first year we've had, but I have to admit that that's not the case. I don't mean to write that the business is a disaster in any way, it's running profitably and has a small loyal customer base, but it was different from how I imagined the platform to go.
-      </p>
-      <p>
-        So, how "bad" is it? Since its launch, Blockstock has generated €4'680 through 76 sales. 179 people signed up for an account, 20 of whom made a purchase. 75% of paying customers are returning customers.
-      </p>
-      <p>
-        I'm done hiding Blockstock and will be talking about it more while I work to improve the site with my small team and onboard more vendors, and collect more user feedback.
-      </p>
+    <section class="blog">
+      <section class="post">
+        <h2>Video Games in Education</h2>
+        <div style="text-align: center;">
+          <img src="https://media.licdn.com/dms/image/C4E22AQHfngeU6D-HDQ/feedshare-shrink_2048_1536/0/1674208403812?e=1677110400&v=beta&t=SsHHD0lx2vII5AJnwjBstkdWOYlJA1_rE5SHdgKNjjs">
+        </div>
+        <p>Gone are the days when video games were seen as a distraction from education. Today, we are realizing the potential of gaming as a powerful tool for enhancing learning and engagement. Here are some of the benefits of incorporating video games into education:</p>
+        <ul>
+          <li>Improves problem-solving skills, spatial reasoning, and cognitive flexibility.</li>
+          <li>Promotes collaboration, communication, and critical thinking.</li>
+          <li>Increases creativity and innovation.</li>
+          <li>Creates a sense of motivation and ownership, leading to increased engagement and self-directed learning.</li>
+          <li>Can be especially powerful for students who may struggle with traditional learning methods.</li>
+        </ul>
+        <p>It's time to embrace the power of gaming in education and unleash the full potential of our students. Are you ready to join the game-based learning revolution? 
+          Follow us at Shapescape for more insights and updates on how video games can be used in education.</p>
+      </section>
+      <section class="post">
+        <h2>Domestique Podcast</h2>
+        <div style="text-align: center;">
+          <img src="https://i.imgur.com/Js9yXgw.png">
+        </div>
+        <p>Four episodes into the new Domestique podcast season, we celebrate our first milestone! We're currently
+          placed 13th in Belgium in sports podcasts!</p>
+        <p>I'm still very, very new to podcasting, but I do want to celebrate this early win and, at the same time, be
+          ambitious. Having the Domestique Podcast chart in more countries would be great, as well as a top 10 placement
+          in Belgium!</p>
+        <p>Haven't listened to the latest episode yet?</p>
+        <p>Please give it a listen here:</p>
+        <p><a href="https://www.buzzsprout.com/2098305/12041047">https://www.buzzsprout.com/2098305/12041047</a></p>
+      </section>
+      <section class="post">
+        <h2>Grave Danger 2</h2>
+        <div style="text-align: center;">
+          <img
+            src="https://www.shapescape.com/static/4da34f4ddaffbabddcfe6804d94a6a5a/8ab23/8ab1d080-4392-49f5-aa63-81445f486589_keyart.webp">
+        </div>
+        <p>
+          Last night, Grave Danger 2 hit the virtual shelves of the Minecraft Marketplace. Exactly 1 year after the
+          original, Shapescape brings a sequel to one of its most downloaded games in which we take our Knight's Brigade
+          on a well-earned vacation after their adventures in Grave Danger. Luckily the King's family owns a resort on
+          Skull Island. Nothing ever goes wrong on islands that have names like that, right?
+        </p>
+        <p>
+          Grave Danger was downloaded 5.5 million times as a part of the 2022 New Year Celebration. Seeing that
+          established player base got us thinking about whether or not we could turn Grave Danger into an IP with some
+          name recognition. This leads us to the creation of Grave Danger 2. This was produced in a very focused period
+          of time in by our whole production team at our office in Hamburg, Germany.
+        </p>
+      </section>
+      <section class="post">
+        <h2>Blockstock</h2>
+        <div style="text-align: center;">
+          <img
+            src="https://media.licdn.com/dms/image/C4E22AQGWJOVG82aaew/feedshare-shrink_2048_1536/0/1673348590635?e=1677110400&v=beta&t=E4pbokDSlLnryc-41ALSPArjkkWfL1JJlsaWq9ZSai8">
+        </div>
+        <p>
+          Last year, in 2022, Blockstock was launched as an easy-to-use Marketplace for Minecraft-related 3D models. It
+          launched with a database of over 1000 high-quality models supplied by Shapescape.
+        </p>
+        <p>
+          I'd love to tell everyone about the amazing first year we've had, but I have to admit that that's not the
+          case. I don't mean to write that the business is a disaster in any way, it's running profitably and has a
+          small loyal customer base, but it was different from how I imagined the platform to go.
+        </p>
+        <p>
+          So, how "bad" is it? Since its launch, Blockstock has generated €4'680 through 76 sales. 179 people signed up
+          for an account, 20 of whom made a purchase. 75% of paying customers are returning customers.
+        </p>
+        <p>
+          I'm done hiding Blockstock and will be talking about it more while I work to improve the site with my small
+          team and onboard more vendors, and collect more user feedback.
+        </p>
+      </section>
     </section>
   </section>
-</section>
   <div class="footer">
     <a href="https://twitter.com/BrambossMC" target="_blank">
       <img src="img/twitter.png" height="32px">
