@@ -195,26 +195,20 @@ p {
 
   .blog {
     display: inline-block;
-    width: 60%;
+    width: 80%;
     padding: 5%;
-    border-radius: 60px;
-    float: left;
   }
 
   .post {
-    width: 90%;
+    width: 100%;
     margin: 3%;
     padding: 3%;
-  }
-  .post img {
-    width: 80%;
   }
 
   .container {
     width: 60%;
     padding: 5%;
-    border-radius: 60px;
-    float: left;
+    border-radius: 80px;
   }
 
   .footer {
